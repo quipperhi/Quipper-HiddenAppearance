@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.en.translation", "res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.zh_Hans_CN.translation", "res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.zh_Hant_TW.translation" ]
+
+source_file="res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.csv"
+dest_files=[ "res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.en.translation", "res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.zh_Hans_CN.translation", "res://mods-unpacked/Quipper-HiddenAppearance/translations/Quipper-HiddenAppearance.zh_Hant_TW.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

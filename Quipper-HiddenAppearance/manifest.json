@@ -1,0 +1,47 @@
+{
+	"name": "HiddenAppearance",
+	"namespace": "Quipper",
+	"version_number": "1.0.2",
+	"description": "隱藏玩家道具外觀 Hide Player's item appearance",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": ["Quipper"],
+			"incompatibilities": [],
+			"compatible_mod_loader_version": ["6.2.0"],
+			"compatible_game_version": ["1.1.9.3"],
+			"config_schema": {
+				"title": "HA-Config",
+				"description": "Config for HiddenAppearance",
+				"type": "object",
+				"properties": {
+					"QUIPPER_HIDDEN_APPEARANCE_SHOW_OPTIONS": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_HIDDEN_APPEARANCE_PLAYER_1_SETTINGS_HIDDEN": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_HIDDEN_APPEARANCE_PLAYER_2_SETTINGS_HIDDEN": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_HIDDEN_APPEARANCE_PLAYER_3_SETTINGS_HIDDEN": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_HIDDEN_APPEARANCE_PLAYER_4_SETTINGS_HIDDEN": {
+						"type": "boolean",
+						"default": true
+					},
+					"QUIPPER_HIDDEN_APPEARANCE_SOLO_SETTINGS_HIDDEN": {
+						"type": "boolean",
+						"default": true
+					}
+				}
+			}
+		}
+	}
+}
